@@ -91,7 +91,7 @@ const TranscriptEditor = ({ initialTranscript }) => {
 
   const getHighlightStyle = (startTime, duration) => {
     if (currentTime >= startTime && currentTime < startTime + duration) {
-      return "border border-yellow-500 rounded-md";
+      return "border text-white border-yellow-500 rounded-md";
     }
     return "text-white";
   };
