@@ -29,7 +29,7 @@ const CorrectionForm = ({ word, onSubmit, onCancel }) => {
           onClick={onCancel}
           className="bg-gray-700 text-white px-4 py-1 rounded-md text-sm font-medium"
         >
-          Correct All
+          Cancel
         </button>
       </div>
     </div>
